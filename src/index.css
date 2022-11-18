@@ -5,6 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: lightsalmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.numbers button {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 30px;
+  margin: 25px;
+  font-size: 3em;
+  background-color: bisque;
+
+}
+
+.numbers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 30px;
+
+}
+
+.numbers span {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
 }
 
 code {
